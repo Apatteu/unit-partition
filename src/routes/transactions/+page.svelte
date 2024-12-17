@@ -217,7 +217,7 @@ interface transaction {
             <Button color="alternative" on:click={() => showModal = false}>
                 Cancel
             </Button>
-            <Button type="submit" color="primary">
+            <Button type="submit" color="yellow">
                 Save Transaction
             </Button>
         </div>
@@ -328,7 +328,7 @@ interface transaction {
                 <Button color="alternative" on:click={() => showEditModal = false}>
                     Cancel
                 </Button>
-                <Button type="submit" color="primary">
+                <Button type="submit" color="yellow">
                     Save Changes
                 </Button>
             </div>
